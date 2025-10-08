@@ -82,7 +82,7 @@ class _CartState extends State<Cart> {
                   Obx(
                     () => textWidget(
                       text:
-                          "₹${cartController.getSubtotal().toStringAsFixed(2)}",
+                          "₹ ${cartController.getSubtotal().toStringAsFixed(2)}",
                       fontSize: height * 0.022,
                       fontweight: FontWeight.w700,
                       fontColor: black,
@@ -126,7 +126,7 @@ class _CartState extends State<Cart> {
                   ),
                   SizedBox(height: height * 0.01),
                   textWidget(
-                    text: "₹${item.price.toStringAsFixed(2)}",
+                    text: "₹ ${item.price.toStringAsFixed(2)}",
                     fontSize: height * 0.018,
                     fontweight: FontWeight.w500,
                     fontColor: black,
