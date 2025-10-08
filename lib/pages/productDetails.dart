@@ -120,7 +120,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                               text: "Add to cart",
                               fontSize: height * 0.017,
                               fontweight: FontWeight.w500,
-                              fontColor: secondaryColor,
+                              fontColor: white,
                               buttonWidth: width * 0.8,
                               verticalPadding: 20,
                               buttonColor: black,

@@ -88,7 +88,7 @@ class _ForgotPasswordState extends State<ForgotPassword>
                         text: "Reset password email sent",
                         fontSize: height * 0.017,
                         fontweight: FontWeight.w500,
-                        fontColor: secondaryColor,
+                        fontColor: white,
                         messageColor: green,
                       );
                     } else {
@@ -100,7 +100,7 @@ class _ForgotPasswordState extends State<ForgotPassword>
                       text: "Please fill the fields",
                       fontSize: height * 0.017,
                       fontweight: FontWeight.w500,
-                      fontColor: secondaryColor,
+                      fontColor: white,
                       messageColor: red,
                     );
                   }
@@ -109,7 +109,7 @@ class _ForgotPasswordState extends State<ForgotPassword>
                   text: "Login",
                   fontSize: height * 0.017,
                   fontweight: FontWeight.w500,
-                  fontColor: secondaryColor,
+                  fontColor: white,
                   buttonWidth: width * 0.8,
                   buttonColor: black,
                 ),
