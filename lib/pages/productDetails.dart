@@ -86,7 +86,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                 SizedBox(height: height * 0.012),
                 ReadMoreText(
                   widget.product.description,
-                  trimLines: 2, // number of lines to show initially
+                  trimLines: 2,
                   colorClickableText: grey,
                   trimMode: TrimMode.Line,
                   trimCollapsedText: '...Read more',

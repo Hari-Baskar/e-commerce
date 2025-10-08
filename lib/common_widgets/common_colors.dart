@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-Color themeColor = const Color.fromARGB(185, 52, 1, 139);
-Color secondaryColor = Colors.white;
 Color white = Colors.white;
 Color black = Colors.black;
 Color green = const Color.fromARGB(255, 4, 130, 8);

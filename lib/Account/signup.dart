@@ -223,7 +223,7 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                         text: "Please fill all the fields",
                         fontSize: height * 0.017,
                         fontweight: FontWeight.w500,
-                        fontColor: secondaryColor,
+                        fontColor: white,
                         messageColor: red,
                       );
                     }
@@ -232,7 +232,7 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                     text: "Create Account",
                     fontSize: height * 0.017,
                     fontweight: FontWeight.w500,
-                    fontColor: secondaryColor,
+                    fontColor: white,
                     buttonWidth: width * 0.8,
                     verticalPadding: 20,
                     buttonColor: black,

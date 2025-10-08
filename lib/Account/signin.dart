@@ -167,7 +167,7 @@ class _SignInState extends State<SignIn> with SingleTickerProviderStateMixin {
                       text: "Please fill all the fields",
                       fontSize: height * 0.017,
                       fontweight: FontWeight.w500,
-                      fontColor: secondaryColor,
+                      fontColor: white,
                       messageColor: red,
                     );
                   }
@@ -177,7 +177,7 @@ class _SignInState extends State<SignIn> with SingleTickerProviderStateMixin {
                   fontSize: height * 0.017,
                   verticalPadding: 20,
                   fontweight: FontWeight.w500,
-                  fontColor: secondaryColor,
+                  fontColor: white,
                   buttonWidth: width * 0.8,
                   buttonColor: black,
                 ),

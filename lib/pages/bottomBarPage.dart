@@ -40,8 +40,8 @@ class _BottomBarPageState extends State<BottomBarPage> {
             label: 'Profile',
           ),
         ],
-        selectedItemColor: white,
-        unselectedItemColor: black,
+        selectedItemColor: black,
+        unselectedItemColor: grey,
       ),
     );
   }
